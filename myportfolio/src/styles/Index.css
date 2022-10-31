@@ -25,3 +25,16 @@
       justify-content: center;
       
 }
+
+.btn-inter{
+      font-size: .5rem;
+      font-weight: bold;
+      -webkit-text-stroke: 0rem;
+      background-color: rgba(46, 46, 46, 0.582);
+      margin: .3rem;
+      padding: 1rem;
+}
+
+.btn-inter:hover{
+      background-color: rgba(0, 0, 0, 0.808);
+}
