@@ -1,5 +1,5 @@
 .navbar{
-      position: fixed;
+      position: absolute;
       z-index: 1;
 }
 
@@ -7,7 +7,7 @@
       width: 100% !important;
 }
 
-.justify-center{
+.contentHome{
       display: flex;
       justify-content: center;
       align-items: center;
@@ -38,3 +38,12 @@
 .btn-inter:hover{
       background-color: rgba(0, 0, 0, 0.808);
 }
+
+.video {
+      height: 100%; 
+      object-fit: cover;
+      width: 100%;
+      z-index: -1;
+      position: fixed;  
+      
+  }
