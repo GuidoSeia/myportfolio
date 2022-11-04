@@ -16,19 +16,32 @@ code {
     monospace;
 }
 
+.text-introduce{
+  text-align: left;
+  color: white;
+  font-size: .7rem !important;
+  font-weight: 600;
+  margin-left: .5rem;
+  letter-spacing: 1.5px;
+
+}
+
 .content{
   height: 100vh;
 
 }
 
 .content-2{
-  height: 100vh;
-  background-image: url(assets/waves.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 85vh;
+  background-color: rgb(255, 255, 255);
 }
 
 .content-3{
   height: 100vh;
-  background-color: rgb(0, 0, 29);
+  background-color: #251D1F;
+}
+
+.content-4{
+  background-color: red;
+  height: 70vh;
 }
