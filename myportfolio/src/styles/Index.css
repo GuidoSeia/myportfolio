@@ -47,3 +47,9 @@
       position: fixed;  
       
   }
+
+.svg{
+     display: flex;
+     justify-content: end;
+      z-index: -1;
+}
