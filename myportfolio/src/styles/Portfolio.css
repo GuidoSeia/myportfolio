@@ -3,3 +3,16 @@
       flex-direction: row;
       font-size: 2rem;
 }
+
+.card-body{
+      width: 10%;
+      height: 30%;
+}
+
+video{
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+}
+
+
