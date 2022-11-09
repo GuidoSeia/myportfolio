@@ -4,15 +4,24 @@
       font-size: 2rem;
 }
 
-.card-body{
-      width: 10%;
-      height: 30%;
+
+.carousel-video{
+      width: 25%;
+      z-index: 0;
+      object-fit: cover;
+      position: absolute;
 }
 
-video{
-      height: 100%;
+.carousel-text{
+      color: red;
+      z-index: 1;
+}
+
+.card-body{
       width: 100%;
-      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.671);
+      height: 15%;
+      color: white;
 }
 
 
