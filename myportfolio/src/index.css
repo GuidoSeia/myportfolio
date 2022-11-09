@@ -16,6 +16,32 @@ code {
     monospace;
 }
 
+.text-introduce{
+  text-align: left;
+  color: white;
+  font-size: .7rem !important;
+  font-weight: 600;
+  margin-left: .5rem;
+  letter-spacing: 1.5px;
+
+}
+
 .content{
   height: 100vh;
+
+}
+
+.content-2{
+  height: 85vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.content-3{
+  min-height: 100vh;
+  background-color: #251D1F;
+}
+
+.content-4{
+  background-color: red;
+  height: 70vh;
 }

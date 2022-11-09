@@ -1,0 +1,27 @@
+.text-portfolio{
+      display: flex;
+      flex-direction: row;
+      font-size: 2rem;
+}
+
+
+.carousel-video{
+      width: 25%;
+      z-index: 0;
+      object-fit: cover;
+      position: absolute;
+}
+
+.carousel-text{
+      color: red;
+      z-index: 1;
+}
+
+.card-body{
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.671);
+      height: 15%;
+      color: white;
+}
+
+
