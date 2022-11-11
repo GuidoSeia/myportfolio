@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar';
 import About from '../components/About';
 import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact';
 import { Parallax } from 'react-parallax';
 import video from '../assets/videofondo.mp4'
 import PDF from '../assets/Guido Seia CV.pdf'
@@ -44,7 +45,7 @@ export default function Index() {
     </Parallax>
     <Parallax strength={500} bgImage={''}>
       <div className='content-4'>
-          <Portfolio/>
+          <Contact/>
       </div>
     </Parallax>
     </div>
