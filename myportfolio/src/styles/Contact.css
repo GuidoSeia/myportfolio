@@ -5,4 +5,13 @@
       font-weight: 800;
       letter-spacing: 7px;
       font-size: 2rem;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+}
+
+.formDiv{
+      height: 95%;
+      margin-bottom: .5rem;
+      margin-top: .5rem;
 }
