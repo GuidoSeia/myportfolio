@@ -42,12 +42,10 @@ export default function Index() {
       <div className='content-3'>
           <Portfolio/>
       </div>
-    </Parallax>
-    <Parallax strength={500} bgImage={''}>
+    </Parallax>   
       <div className='content-4'>
           <Contact/>
       </div>
-    </Parallax>
     </div>
   )
 }
