@@ -1,10 +1,5 @@
 import React from 'react'
 import '../styles/Portfolio.css'
-import Amazing from '../assets/amazing.mp4'
-import miTy from '../assets/miTi.mp4'
-import salty from '../assets/theSalty.mp4'
-
-
 
 export default function Portfolio() {
 
