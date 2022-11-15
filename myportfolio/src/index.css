@@ -28,20 +28,30 @@ code {
 
 .content{
   height: 100vh;
-
+  z-index: 1;
 }
 
 .content-2{
-  height: 85vh;
-  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  background-color: #251D1F;
+  z-index: 1;
 }
 
 .content-3{
   min-height: 100vh;
   background-color: #251D1F;
+  z-index: 1;
 }
 
 .content-4{
   background-color: #251D1F;
-  height: 70vh;
+  height: 100vh;
+  z-index: 1;
+}
+
+#tsparticles {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  z-index: -1;
 }
