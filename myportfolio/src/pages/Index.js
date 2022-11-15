@@ -9,6 +9,7 @@ import PDF from '../assets/Guido Seia CV.pdf'
 import svg from '../assets/wave.svg'
 import '../styles/Index.css'
 
+
 export default function Index() {
 
   return (
@@ -42,8 +43,10 @@ export default function Index() {
       <div className='content-3'>
           <Portfolio/>
       </div>
-    </Parallax>   
+    </Parallax>  
+        
       <div className='content-4'>
+      
           <Contact/>
       </div>
     </div>
