@@ -20,7 +20,7 @@ export default function Index() {
     </div>   
     <Parallax strength={500}  bgImageStyle={{height: '100vh', maxWidth: '400vh', opacity: '.8'}}>
       <div className='content contentHome bg-yellow flex align-center justify-center w-full'>
-      <video  className='video blur-sm' src={video} autoPlay loop playsInline muted />
+      <video  className='video-fondo blur-sm' src={video} autoPlay loop playsInline muted />
           <div className='text-contentHome align-center justify-center text-center'>
             <h1 color='red' data-aos="zoom-in-down"  data-aos-duration="1000"> HI, I'M GUIDO</h1>
             <h1 data-aos="zoom-in-down" data-aos-duration="2000"> WEB DEVELOPER</h1>
@@ -46,17 +46,9 @@ export default function Index() {
     </Parallax>  
         
       <div className='content-4'>
-      
           <Contact/>
       </div>
     </div>
   )
 }
-{/* <div className='h-screen'>
-    <NavBar/>
-    </div> */}
 
-/* 
-    <div className='w-full flex items-end justify-end'>
-              <img className='svg w-full flex ' src = {svg} alt="Mi SVG feliz"/>
-            </div> */

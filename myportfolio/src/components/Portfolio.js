@@ -86,8 +86,8 @@ export default function Portfolio() {
       <div className='flex ml-10' >
 
       {WebProjects.map(web =>
-        <div className="card shadow-xl image-full flex items-end justify-center">
-          <figure><video src={web.video} alt="Shoes" autoPlay loop muted /></figure>
+        <div className="card shadow-xl image-full flex items-end justify-center" data-aos="fade-up" data-aos-duration="1000">
+          <figure><video src={web.video} className='video-portfolio' alt="Shoes" autoPlay loop muted /></figure>
           <div className="card-body flex items-center flex-wrap justify-evenly ">
             <h2 className="card-title text-center text-white ">{web.name}</h2>
             <a href={web.github}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" className="bi bi-github" viewBox="0 0 16 16">
@@ -120,7 +120,7 @@ export default function Portfolio() {
         <div className='flex ml-10 w-full items-center justify-center' >
 
       {MobileProjects.map(mobile =>
-        <div className="card shadow-xl image-full flex items-end justify-center">
+        <div className="card shadow-xl image-full flex items-end justify-center" data-aos="fade-up" data-aos-duration="1000">
           <figure><video src={mobile.video} alt="Shoes" autoPlay loop muted /></figure>
           <div className="card-body flex items-center flex-wrap justify-evenly ">
             <h2 className="card-title text-center text-white ">{mobile.name}</h2>

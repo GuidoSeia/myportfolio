@@ -23,6 +23,7 @@
       -webkit-text-stroke-color: black;
       font-weight: 800;
       letter-spacing: 7px;
+      
 }
 
 .titleAbout{
@@ -32,6 +33,7 @@
       font-size: 2rem;
       letter-spacing: 5px;
       font-display: unset;
+     
 }
 
 .carousel-item{
