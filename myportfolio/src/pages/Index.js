@@ -6,7 +6,6 @@ import Contact from '../components/Contact';
 import { Parallax } from 'react-parallax';
 import video from '../assets/videofondo.mp4'
 import PDF from '../assets/Guido Seia CV.pdf'
-import svg from '../assets/wave.svg'
 import '../styles/Index.css'
 
 
@@ -18,7 +17,7 @@ export default function Index() {
     <div className='navbar h-screen'>
       <NavBar/>
     </div>   
-    <Parallax strength={500}  bgImageStyle={{height: '100vh', maxWidth: '400vh', opacity: '.8'}}>
+    <Parallax strength={100}  bgImageStyle={{height: '100vh', maxWidth: '400vh', opacity: '.8'}}>
       <div className='content contentHome bg-yellow flex align-center justify-center w-full'>
       <video  className='video-fondo blur-sm' src={video} autoPlay loop playsInline muted />
           <div className='text-contentHome align-center justify-center text-center'>
