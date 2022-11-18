@@ -47,7 +47,7 @@ export default function Portfolio() {
 
 
   return (
-    <div className='flex items-center flex-col'>
+    <div className='containerPortfolio'>
       <div className='w-full'>
           <p className='text-introduce '><br />{"<section>"}</p>         
       </div>
@@ -77,10 +77,11 @@ export default function Portfolio() {
             data-aos-duration="1450">S</div> 
           </div> 
         </div>     
-        <div className='w-full'>
-          <p className='text-introduce  mb-4'><br />{"<"}<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
-  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
-</svg>{">"}</p>  
+        <div className='w-full flex '>
+          <p className='text-introduce  mr-2'>{"< "}</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
+          <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/></svg>
+          <p className='text-introduce  mr-2'>{">"}</p>  
         </div>
 
       <div className='flex ml-10' >
@@ -105,16 +106,20 @@ export default function Portfolio() {
       </div>              
         
         <div className='w-full flex'>
-          <p className='text-introduce flex flex-col'><br />{"</"}<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
-  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
-</svg>{">"}</p>  
+          <p className='text-introduce  mr-1'>{"</"}</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
+        <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+      </svg>
+        <p className='text-introduce  '>{">"}</p>  
         </div>
 
-        <div className='w-full'>
-          <p className='text-introduce  mb-4'><br />{"<"}<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-phone" viewBox="0 0 16 16">
-  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-</svg>{">"}</p>  
+        <div className='w-full flex mt-5'>
+          <p className='text-introduce  mr-2'>{"<"}</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-phone" viewBox="0 0 16 16">
+          <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+          <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg>
+          <p className='text-introduce  mr-1'>{">"}</p>  
         </div>
 
         <div className='flex ml-10 w-full items-center justify-center' >
@@ -138,11 +143,13 @@ export default function Portfolio() {
       )}
       </div>             
 
-        <div className='w-full'>
-          <p className='text-introduce '><br /> {"</"}<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className ="bi bi-phone" viewBox="0 0 16 16">
-  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-</svg>{">"}</p>  
+        <div className='w-full flex'>
+          <p className='text-introduce mr-1'>{"</"}</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className ="bi bi-phone" viewBox="0 0 16 16">
+          <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+          <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+        </svg>
+            <p className='text-introduce'>{">"}</p>  
         </div>
       </div>
       <div className='w-full'>
